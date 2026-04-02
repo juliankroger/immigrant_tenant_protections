@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>URPL-GP 4650 Class 2 Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Immigrant Tenant Protections Resource Center</h1>
+
+    <h3>Welcome - this site provides information about policies avilable to state and local governments which can help
+        immigrants struggling to remain housed in the face of increasing federal targeting</h3>
+
+    <div class="container">
+
+        <div class="policy_container">
+
+            <div class="policy" onClick="showInfo('era')" id="era">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/17_E._126th_St%2C_Harlem.jpg/1280px-17_E._126th_St%2C_Harlem.jpg?_=20210721025655"
+                    alt="Brownstone apartment exterior">
+                <h3> Emergency Rental Assistance </h3>
+            </div>
+
+            <div class="policy" onClick="showInfo('moratorium')" id="moratorium">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Apartment_doors.jpg/960px-Apartment_doors.jpg?_=20220522205104"
+                    alt="Open apartment door">
+                <h3> Eviction Moratorium </h3>
+            </div>
+
+            <div class="policy" onClick="showInfo('virtual_hearings')" id="virtual_hearings">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Boone_County_Courthouse_1909_courtroom.jpg/1280px-Boone_County_Courthouse_1909_courtroom.jpg?_=20200823153430"
+                    alt="Courtroom interior">
+                <h3> Virtual Court Hearings </h3>
+            </div>
+        </div>
+
+        <div class="info_container" id="info_panel">
+            <h3 id="info_title"></h3>
+            <p id="info_fact">Click on a policy below to the left to learn more</p>
+        </div>
+
+    </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
